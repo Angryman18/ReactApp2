@@ -1,0 +1,100 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    
+    
+}
+
+.content {
+    width: 500px;
+    height: 150px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: azure;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.InputForm {
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+}
+
+.label {
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.25rem;
+    color: rgb(4, 66, 4);
+}
+
+div input {
+    width: 60%;
+    height: 25px;
+    padding: 0px 0px 0px 10px;
+    border: none;
+    border: 2px solid rgb(107, 98, 98);
+    border-radius: 3px;
+    outline: none;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+div input:focus {
+    border: none;
+    border: 2px solid rgb(22, 42, 226);
+    color: rgb(22, 42, 226);
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.theButton {
+    padding: 10px;
+}
+div button {
+    padding: 6px 10px;
+    background-color: rgb(215, 215, 240);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+    color: #fff;
+}
+
+div button:active {
+    text-decoration: none;
+    background-color: rgb(97, 97, 228);
+
+}
+
+
+
+.TodoItem {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.listitem {
+    width: 500px;
+    border: 1px solid rgb(194, 190, 190);
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(99, 96, 96, 0.19);
+    background: rgb(244, 244, 248);
+}
+
+
+.Invalid {
+    border-color:red;
+    background: rgb(248, 211, 211);    
+}
